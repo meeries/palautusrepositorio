@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "teht1"
+version = "0.1.0"
+description = ""
+authors = ["Meeri <meeri.simpanen@helsinki.fi>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+flask = "^2.2.2"
+toml = "^0.10.2"
+
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.2.0"
+pylint = "^2.15.5"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
