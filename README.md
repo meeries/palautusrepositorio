@@ -7,4 +7,4 @@
 [Tehtävät 3-4](https://github.com/meeries/ohtuvarasto)
 
 ## viikko 3
-[Tehtävät 1-11](https://github.com/meeries/palautusrepositorio/tree/main/viikko3)
+[Tehtävät 1-11](https://github.com/meeries/palautusrepositorio/tree/main/viikko3)(eli kaikki)
