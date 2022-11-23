@@ -1,0 +1,2 @@
+Glad, sad, mad -tekniikassa tiimin jäsenet kategorisoivat sprintin aikana kokeneensa asiat niin, tekivätkö ne heidät iloiseksi (glad), surulliseksi (sad) vai vihaiseksi (mad). Osallistujat sitten äänestävät mainituista asioista ne, jotka heidän mielestään ovat käsittelyn arvoisia.
+Start, stop, continue, more of, less of wheel -tekniikan periaate on pyörä, jota käytetään asioiden  kategorisointiin tiimin jäsenten toimesta. Tarkoituksena on etsiä asioita, jota tiimin jäsenten mukaan tulisi alkaa tekemään, lakata tekemästä, jatkaa samalla tavalla tai tehdä enemmän tai vähemmän.
