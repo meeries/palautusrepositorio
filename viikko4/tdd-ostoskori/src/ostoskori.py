@@ -32,8 +32,7 @@ class Ostoskori:
         
 
     def tyhjenna(self):
-        pass
-        # tyhjentää ostoskorin
+        self.kori = {}
 
     def ostokset(self):
         oliot = []
