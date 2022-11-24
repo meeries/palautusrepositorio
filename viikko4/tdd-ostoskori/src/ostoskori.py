@@ -26,6 +26,8 @@ class Ostoskori:
 
     def poista_tuote(self, poistettava: Tuote):
         self.kori[poistettava.nimi].muuta_lukumaaraa(-1)
+        if self.kori[poistettava.nimi].lukumaara() == 0:
+            self.kori.pop(poistettava.nimi)
 
         
 
