@@ -4,7 +4,6 @@ from ostos import Ostos
 class Ostoskori:
     def __init__(self):
         self.kori = {}
-        # ostoskori tallettaa Ostos-oliota, yhden per korissa oleva Tuote
 
     def tavaroita_korissa(self):
         maara = 0
@@ -26,8 +25,9 @@ class Ostoskori:
             self.kori[lisattava.nimi] = Ostos(lisattava)
 
     def poista_tuote(self, poistettava: Tuote):
-        # poistaa tuotteen
-        pass
+        self.kori[poistettava.nimi].muuta_lukumaaraa(-1)
+
+        
 
     def tyhjenna(self):
         pass
