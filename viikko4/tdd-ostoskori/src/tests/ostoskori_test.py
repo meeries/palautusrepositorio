@@ -69,5 +69,13 @@ class TestOstoskori(unittest.TestCase):
     def test_kahden_samantuotteen_jalkeen_yksi_olio(self):
         kakku = Tuote("Kakku", 5)
         self.kori.lisaa_tuote(kakku)
+        self.kori.lisaa_tuote(kakku)
         ostokset = self.kori.ostokset()
         self.assertEqual(len(ostokset), 1)
+
+    def test_kahden_samantuotteen_jalkeen_olio_maara_oikein(self):
+        kakku = Tuote("Kakku", 5)
+        self.kori.lisaa_tuote(kakku)
+        self.kori.lisaa_tuote(kakku)
+        ostos = self.kori.ostokset()[0]
+        self.assertEqual(ostos.lukumaara(), 2)
