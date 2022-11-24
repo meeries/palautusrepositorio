@@ -11,4 +11,5 @@
 
 ## viikko 4
 [Tehtävät 1-5, 7](https://github.com/meeries/palautusrepositorio/tree/main/viikko4)
+
 [retrospektiivitekniikat](https://github.com/meeries/palautusrepositorio/blob/main/retro.md)(teht. 6)
