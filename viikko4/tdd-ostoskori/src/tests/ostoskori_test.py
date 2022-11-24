@@ -36,7 +36,12 @@ class TestOstoskori(unittest.TestCase):
 
     def test_kahden_samantuotteen_jalkeen_maara_oikein(self):
         kakku = Tuote("Kakku", 5)
-        omena = Tuote("Omena", 5)
         self.kori.lisaa_tuote(kakku)
-        self.kori.lisaa_tuote(omena)
+        self.kori.lisaa_tuote(kakku)
         self.assertEqual(self.kori.tavaroita_korissa(), 2)
+
+    def test_kahden_samantuotteen_jalkeen_hinta_oikein(self):
+        kakku = Tuote("Kakku", 5)
+        self.kori.lisaa_tuote(kakku)
+        self.kori.lisaa_tuote(kakku)
+        self.assertEqual(self.kori.hinta(), 10)

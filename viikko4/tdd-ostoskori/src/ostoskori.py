@@ -21,7 +21,7 @@ class Ostoskori:
 
     def lisaa_tuote(self, lisattava: Tuote):
         if lisattava.nimi in self.kori:
-            self.kori[lisattava.nimi].muuta_lukumaaraaa(1)
+            self.kori[lisattava.nimi].muuta_lukumaaraa(1)
         else:
             self.kori[lisattava.nimi] = Ostos(lisattava)
 
