@@ -13,3 +13,6 @@
 [Tehtävät 1-5, 7](https://github.com/meeries/palautusrepositorio/tree/main/viikko4)
 
 [retrospektiivitekniikat](https://github.com/meeries/palautusrepositorio/blob/main/retro.md)(teht. 6)
+
+## viikko 5 
+[Tehtävät 3-6](https://github.com/meeries/palautusrepositorio/tree/main/viikko5)
